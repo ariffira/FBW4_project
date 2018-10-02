@@ -17,8 +17,10 @@ body {
 
 .paraTop p {
     padding: 10px;
-    color: yellow;
-    font-size: 25px;
+    color: rgb(255, 208, 0);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
 }
 
 .imgClass  {
@@ -36,3 +38,4 @@ margin: 0px;
     margin-top: 120px;
     margin-left: -200px
 }
+
