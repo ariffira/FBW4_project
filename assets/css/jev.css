@@ -5,6 +5,7 @@ body {
 .paraTop {
     color: white;
     padding: 20px;
+    text-shadow: 1px 1px 2px black; 
 }
 
 .paraTop h1 {
@@ -18,4 +19,15 @@ body {
     padding: 10px;
     color: yellow;
     font-size: 25px;
+}
+
+.imgClass  {
+margin: 0px;
+
+}
+
+.imgClass img {
+    width: 50%;
+    filter: alpha(Opacity=80);
+    opacity: 0.8; 
 }
