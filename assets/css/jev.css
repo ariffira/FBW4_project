@@ -5,6 +5,7 @@ body {
 .paraTop {
     color: white;
     padding: 20px;
+    text-shadow: 1px 1px 2px black; 
 }
 
 .paraTop h1 {
@@ -21,10 +22,17 @@ body {
 }
 
 .imgClass  {
-margin: 30px;
+margin: 0px;
 
 }
 
 .imgClass img {
-    width: 100%;
+    width: 50%;
+    filter: alpha(Opacity=80);
+    opacity: 0.8; 
+}
+
+.imgClass2 {
+    margin-top: 120px;
+    margin-left: -200px
 }

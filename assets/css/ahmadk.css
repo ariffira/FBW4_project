@@ -1,0 +1,33 @@
+#Akimage {
+  border: 5px solid rgba(215, 213, 230, 0.507);
+  margin-top: -12rem;
+  border-radius: 50% !important;
+  width: 20rem;
+  height: 20rem;
+  transform: rotate(-90deg);
+  box-shadow: 3px 3px rgba(215, 213, 230, 0.507);
+}
+#Akimage:hover {
+  border: 5px solid rgba(8, 0, 10, 0.753);
+  margin-top: -15rem;
+  border-radius: 50% !important;
+  width: 23rem;
+  height: 23rem;
+  transform: rotate(-90deg);
+}
+
+#AKfooter a {
+  margin: auto;
+  padding: 5px;
+  color: aliceblue;
+  font-size: 2em;
+}
+.AKh2 {
+  text-shadow: 2px 2px grey;
+  font-weight: 800;
+  color: blue;
+}
+#AKfooter h6 {
+  color: aliceblue;
+  margin: 15px;
+}
