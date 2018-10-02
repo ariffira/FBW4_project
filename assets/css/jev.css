@@ -19,3 +19,12 @@ body {
     color: yellow;
     font-size: 25px;
 }
+
+.imgClass  {
+margin: 30px;
+
+}
+
+.imgClass img {
+    width: 100%;
+}
