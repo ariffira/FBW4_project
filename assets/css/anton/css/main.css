@@ -240,8 +240,12 @@ img {
 /* Header Section End */
 /* Works Section Start */
 #works {
-  background: #ffffff;
+  background-image: url('../img/work/img2.jpg');
   width: 100%;
+  color:rgb(231, 225, 225);
+  background-size: cover;
+  background-position: center;
+  text-shadow: 10 10 0.5 #333 
 }
 #works .grid-left .large {
   float: left;
