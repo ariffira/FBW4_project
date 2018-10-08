@@ -1,0 +1,73 @@
+body {
+    background-image: url("http://img.desktopwallpapers.ru/flowers/pics/wide/1366x768/c63093226945732ba150506014d9f902.jpg")
+}
+
+.paraTop {
+    color: white;
+    padding: 20px;
+    text-shadow: 1px 1px 2px black; 
+}
+
+.paraTop h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.paraTop p {
+    padding: 10px;
+    color: rgb(255, 208, 0);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.imgClass  {
+margin: 0px;
+
+}
+
+.imgClass img {
+    width: 50%;
+    filter: alpha(Opacity=80);
+    opacity: 0.8; 
+}
+
+.imgClass2 {
+    margin-top: 120px;
+    margin-left: -200px
+}
+
+.imgClass2 img {
+    width: 70%;
+}
+
+.bubble 
+{
+position: relative;
+width: 250px;
+height: 120px;
+padding: 20px;
+background: #FFFFFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+margin-bottom: -150px;
+font-size: 35px;
+margin-top: 100px;
+}
+
+.bubble:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 15px 15px 0;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -15px;
+left: 110px;
+}
