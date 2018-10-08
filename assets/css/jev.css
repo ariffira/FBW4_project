@@ -39,6 +39,10 @@ margin: 0px;
     margin-left: -200px
 }
 
+.imgClass2 img {
+    width: 70%;
+}
+
 .bubble 
 {
 position: relative;
