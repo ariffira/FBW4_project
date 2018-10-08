@@ -33,7 +33,7 @@ footer {
 
 /* BACKGROUND IMAGES */
 .home {
-  background-image: url("/views/anton/1.jpg");
+  background-image: url("1.jpg");
 }
 #about {
   background-image: url("/views/anton/2.jpg");
