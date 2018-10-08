@@ -12,7 +12,7 @@
   width: auto;
   height: 900px;
   margin-top: -50px;
-  background: url(/assets/img/Profilfoto_SB.jpg);
+  background: url(../img/Profilfoto_SB.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -40,7 +40,7 @@
   color: white;
   margin-top: 30px;
   margin-left: 40px;
-  font-size: 15px;
+  font-size: 18px;
   max-width: 500px;
 }
 
