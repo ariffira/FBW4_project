@@ -1,0 +1,56 @@
+#header {
+  height: 500px;
+  position: relative;
+  top: 0em;
+  background-image: url(../mansour/img/colour-gradient-nature-outdoors-minimal-5k-oy.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+}
+#about{
+  
+  top: 0em;
+  background-image: url(../mansour/img/coloureverse.jpg);
+ 
+   
+  
+}
+#about img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 20px;
+  border: 2px solid rgba(220, 234, 240, 0.836);
+}
+  .heading p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.7em;
+  }
+  .heading h1 {
+    color: black;
+    font-family: "Pacifico", cursive;
+    font-size: 3.5em;
+    font-weight: 300;
+  }
+  .heading h2 {
+    font-size: 4em;
+    color: #fff;
+    font-weight: 300;
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: -5px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.15);
+  }
+  .welcome p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    color: black;
+  }
+  #about p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+  }
+  #about h2{
+    font-family: "Quicksand", sans-serif;
+
+  }
