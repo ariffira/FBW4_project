@@ -1,0 +1,19 @@
+.flag1 {
+    height: 200px;
+    background-color: rgb(136, 0, 0);
+}
+
+.flag2 {
+    height: 150px;
+    background: white;
+}
+
+.flag3 {
+    height: 200px;
+    background-color: rgb(136, 0, 0);
+    text-align: center;
+    color:white;
+    font-size: 200px;
+    padding-top: 0px
+
+}
