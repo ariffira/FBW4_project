@@ -11,7 +11,7 @@
 #about{
   
   top: 0em;
-  background-image: url(../mansour/img/coloureverse.jpg);
+  background-color: rgb(33, 32, 91);
  
    
   
@@ -55,6 +55,8 @@
 
   }
   #skills{
+    background-color: rgb(33, 32, 91);
+
   }
   #skills h1{
     font-family: "Quicksand", sans-serif;
@@ -66,7 +68,8 @@
     position:relative;
     display:block;
     margin-bottom:15px;
-    width:100%;
+    width:50%;
+    margin:10px auto ;
     background:#eee;
     height:35px;
     border-radius:3px;
@@ -78,7 +81,7 @@
     position:absolute;
     top:0;
     left:0;
-  width:110px;
+    width:110px;
     font-weight:bold;
     font-size:13px;
     color:#ffffff;
