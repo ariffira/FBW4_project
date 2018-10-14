@@ -54,10 +54,14 @@
     font-family: "Quicksand", sans-serif;
 
   }
+<<<<<<< HEAD
   #skills{
     background-color: rgb(33, 32, 91);
 
   }
+=======
+  
+>>>>>>> 171a624c74ada78e0733fcd2c66421eeef27d726
   #skills h1{
     font-family: "Quicksand", sans-serif;
   }
@@ -68,8 +72,12 @@
     position:relative;
     display:block;
     margin-bottom:15px;
+<<<<<<< HEAD
     width:50%;
     margin:10px auto ;
+=======
+    width:100%;
+>>>>>>> 171a624c74ada78e0733fcd2c66421eeef27d726
     background:#eee;
     height:35px;
     border-radius:3px;
@@ -81,7 +89,11 @@
     position:absolute;
     top:0;
     left:0;
+<<<<<<< HEAD
     width:110px;
+=======
+  width:110px;
+>>>>>>> 171a624c74ada78e0733fcd2c66421eeef27d726
     font-weight:bold;
     font-size:13px;
     color:#ffffff;

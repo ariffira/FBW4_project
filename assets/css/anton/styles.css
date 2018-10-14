@@ -36,17 +36,17 @@ footer {
   background-image: url("1.jpg");
 }
 #about {
-  background-image: url("/views/anton/2.jpg");
+  background-image: url("2.jpg");
 }
 .history {
-  background-image: url("/views/anton/3.jpg");
+  background-image: url("3.jpg");
   font-family: "Lato", sans-serif;
 }
 #hobby {
-  background-image: url("/views/anton/4.jpg");
+  background-image: url("4.jpg");
 }
 .contact {
-  background-image: url("/views/anton/5.jpg");
+  background-image: url("5.jpg");
   color: rgb(166, 189, 35);
 }
 
