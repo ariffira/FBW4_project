@@ -22,13 +22,20 @@
 	max-width: 960px;
     overflow: hidden;
     width: 100%;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 29bbf03f255ee39a0c7e26a1903b3e6831972a2e
 }
 
 .bar {
 	float: left;
 	width: 20%;
+<<<<<<< HEAD
     text-align: center;
+=======
+	text-align: center;
+>>>>>>> 29bbf03f255ee39a0c7e26a1903b3e6831972a2e
 }
 
 .bar h3 {
