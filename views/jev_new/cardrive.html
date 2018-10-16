@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<title>Car Drive</title>
+<style>
+#road{
+    width: 240px;
+	height: 800px;
+    margin: 0 auto;
+	background: url(http://sergey-oganesyan.ru/wp-content/uploads/2017/04/road.jpg);
+}
+#car{
+    width: 80px;
+    height: 142px;
+    background: url(http://sergey-oganesyan.ru/wp-content/uploads/2017/04/car.png);
+    margin: 650px 0 0 134px;
+    position: absolute;
+}
+</style>
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        var marginTop;
+
+        function drive() {
+            marginTop = $('#car').css('margin-top');
+            $('#car').css('margin-top',parseInt(marginTop, 10) - 2 + 'px');
+        }
+        setInterval(drive, 20);
+    });
+</script>
+</head>
+<body>
+
+	<div id="road">
+        <div id="car"></div>
+        
+    </div>
+    <script>
+        
+    </script>
+</body>
+</html>
