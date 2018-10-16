@@ -1,0 +1,32 @@
+.aboutMe {
+    background: url("../img/bg-about.jpg");
+    background-size: cover;
+}
+
+.skills_container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+ .skills {
+    text-align: right;
+    padding: 10px;
+    color: white;
+  } 
+  
+  .html {width: 90%; background-color: rgb(0, 90, 3); border-radius:10px;}
+  .css {width: 80%; background-color: rgb(4, 101, 180); border-radius:10px;}
+  .js {width: 65%; background-color: #d34a40; border-radius:10px;}
+  .php {width: 20%; background-color: #666565; border-radius:10px;}
+
+  .html .css .js .php span {
+      text-align:left;
+      color: white;
+
+  }
+
+  .html .css .js .php p {
+    text-align:right;
+    color: white;
+
+}
