@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("image/rsz_zoya_in_desert.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 800px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+.hero-text {
+    text-align: center;
+    position: fixed;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: rgb(247, 246, 243);
+    font-family: 'Yeseva One', cursive;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: initial;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(187, 186, 177);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgb(74, 106, 192);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #38d3df;
+}
+
+.container {
+    border-radius: 5px;
+
+    /*background-color: #f2f2f2;*/
+    padding: 20px;
+}
+
+.aboutme {
+    text-align-last: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.aboutmetext {
+    color: aliceblue;
+}
+
+.aboutme {
+    /*background-color: lightgrey;*/
+    width: 300px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.aboutme2 {
+    position: relative;
+    left: 60%;
+    width: 400px;
+    height: 600px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 17%;
+    background-color: rgb(230, 157, 98);
+    color: rgb(85, 71, 71);
+    text-align: center;
+}
