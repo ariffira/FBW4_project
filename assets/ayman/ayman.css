@@ -1,0 +1,43 @@
+.fixed-bottom{
+    background-color: black;
+    width: 89%;
+    margin: auto;
+}
+.name{
+    font-family: 'Acme', sans-serif;
+}
+.about{
+    font-family: 'Acme', sans-serif;
+}
+.lead{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+ }
+ .icon{
+     color: rgb(250, 2, 2);
+ }
+
+ #bars {
+	margin: 2em auto;
+	max-width: 960px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.bar {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.bar h3 {
+	font-size: 1.4em;
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.bar-circle {
+	display: block;
+	margin: 0.7em auto;
+}

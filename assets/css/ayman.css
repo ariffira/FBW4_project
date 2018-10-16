@@ -1,0 +1,19 @@
+.fixed-bottom{
+    background-color: black;
+    width: 89%;
+    margin: auto;
+}
+.name{
+    font-family: 'Acme', sans-serif;
+}
+.about{
+    font-family: 'Acme', sans-serif;
+}
+.lead{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+ }
+.icon{
+     color: rgb(250, 2, 2);
+ }
+
