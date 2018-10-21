@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  <script src="java.js"></script>
+  <link rel="stylesheet" href="idex.css">
+</head>
+
+<body>
+
+  <div id="containercalculeter" class="text-center">
+    <div class="myfirstjavascript">
+
+      <h1>MY FIRST CALCULATER</h1>
+    </div>
+    <!-- 1111111 -->
+    <div class="resultescalculeter">
+      <h2>Your Results</h2>
+      <div id="line1"></div>
+      <div id="resultesID"></div>
+    </div>
+
+
+    <div id="line1"></div>
+    <!-- 2222222 -->
+    <div class="row" id="inputeasy">
+      <div class="col-md-6">
+        <h3 id="texteasy">Give Value for:</h3>
+        <div class="input-group input-group-sm mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">X</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"
+            name="x" id="valueX">
+        </div>
+        <div class="input-group input-group-sm mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Y</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"
+            name="x" id="valueY">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3 id="texteasy">Give Value for:</h3>
+        <div class="input-group input-group-sm mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">a</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"
+            id="valueA">
+        </div>
+        <div class="input-group input-group-sm mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">b</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"
+            id="valueB">
+        </div>
+        <div class="input-group input-group-sm mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">c</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"
+            id="valueC">
+        </div>
+      </div>
+    </div>
+    <!-- 33333333 -->
+    <div id="line1"></div>
+    <div id="mathcalculeter" class="text-center">
+      <div class="row">
+
+        <div class="col-md-4">
+          <form>
+            <fieldset>
+              <legend class="onlywith">Only with X,Y</legend>
+
+              <button type="button" class="btn btn-secondary button7" onclick="Adding()">ADD(+)</button>
+              <button type="button" class="btn btn-secondary button7" onclick="subtraction()">SUB(-)</button>
+              <button type="button" class="btn btn-secondary button7" onclick="multipli()">MUL(*)</button>
+              <button type="button" class="btn btn-secondary button7" onclick="division()">DIV(/)</button>
+              <button type="button" class="btn btn-secondary button7" onclick="crement()">CE(++)</button>
+              <button type="button" class="btn btn-secondary button7" onclick="Decrement()">DC(--)</button>
+            </fieldset>
+
+        </div>
+
+        <div class="col-md-4">
+          <fieldset>
+            <legend class="onlywith">Only with X,Y</legend>
+            <button type="button" class="btn btn-secondary button7" onclick="sqort()">SQR(√)</button>
+            <button type="button" class="btn btn-secondary button7" onclick="precent()">PER(%)</button>
+            <button type="button" class="btn btn-secondary button7" onclick="powerX()">POW(X)</button>
+            <button type="button" class="btn btn-secondary button7" onclick="tannX()">TAN(X)</button>
+            <button type="button" class="btn btn-secondary button7" onclick="sinx()">SIN(X)</button>
+            <button type="button" class="btn btn-secondary button7" onclick="cosx()">COS(X)</button>
+
+
+
+
+          </fieldset>
+        </div>
+
+        <div class="col-md-4">
+          <fieldset>
+            <legend class="onlywith">Only with a,b,c</legend>
+            <button type="button" class="btn btn-secondary button7" onclick="REX1()">RE(X1)</button>
+            <button type="button" class="btn btn-secondary button7" onclick="REX2()">RE(X2)</button>
+            <button type="button" class="btn btn-secondary button7" onclick="EQX()">EQX(X)</button>
+            <!-- <div id="line1"></div> -->
+            <center> <a href=""> <img src=" ./img/ahmadlogio.png" class="logoak" id="myImage" alt="logo" onclick="info()"></a></center>
+            <div id="myalert" class="alert alert-danger collapse">
+              <a href="#" class="close" data-dismiss="alert">&times;</a>
+              <strong>I'am Ahmad</strong>This is my first calculater.
+            </div>
+            <!-- <center> <a href=""> <img src=" ./img/ahmadlogio.png" class="logoak" id="myImage" alt="logo" onclick="info()"></a></center> -->
+          </fieldset>
+
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

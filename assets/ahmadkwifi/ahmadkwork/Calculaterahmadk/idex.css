@@ -1,0 +1,84 @@
+#containercalculeter {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  border: 2px solid gray;
+  box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.432);
+  border-radius: 25px;
+
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 0.842),
+    rgba(211, 211, 211, 0.671)
+  );
+  animation: backgan 20s ease infinite;
+  background-size: 400% 400%;
+}
+@keyframes backgan {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.resultesID {
+  width: 80%;
+  height: 200px !important;
+  padding: 10px;
+  margin: auto;
+  border: 2px solid gray;
+  box-shadow: 5px 5px 5px 5px rgba(180, 175, 175, 0.274);
+  border-radius: 25px;
+  font-size: 30px;
+  color: blue;
+}
+#line1 {
+  border: 1px solid rgba(128, 128, 128, 0.418);
+  width: 80%;
+  margin: 15px auto;
+}
+#inputeasy {
+  width: 90%;
+  margin: auto;
+}
+.button7 {
+  width: 80px;
+  height: 60px;
+  box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.74);
+  margin: 4px auto;
+  background-color: rgba(51, 36, 36, 0.904);
+  border-radius: 50%;
+}
+.button7:hover {
+  background-color: aliceblue;
+  color: black;
+}
+h2,
+h3 {
+  color: white;
+  text-shadow: 3px 3px #7a7676c4;
+}
+.logoak {
+  width: 64px;
+  height: 64px;
+}
+.myfirstjavascript h1 {
+  font-weight: 800;
+  text-shadow: 3px 3px #e0d6d6d0;
+}
+fieldset {
+  border: 2px solid rgba(0, 0, 0, 0.63);
+  border-radius: 15px;
+  /* margin-left: 20px !important; */
+  padding-left: 5px !important;
+  margin: auto !important;
+  text-align: center;
+}
+.onlywith {
+  color: aliceblue;
+  text-shadow: 2px 2px #221d1dd0;
+}
