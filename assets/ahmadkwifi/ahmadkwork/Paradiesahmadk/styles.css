@@ -1,0 +1,47 @@
+html,
+body {
+  background-image: url(./photo-1522421948838-a3cfdbb3932f.jpeg);
+  background-size: cover;
+}
+.textbox1 {
+  height: 60em;
+  padding: 20px;
+  left: -1em;
+
+  padding-top: 13em;
+  background-color: rgba(115, 73, 182, 0.219);
+  position: relative;
+}
+.textbox3 {
+  height: 60em;
+  padding: 20px;
+  left: -1em;
+  padding-top: 19em;
+
+  position: relative;
+}
+.boxtow2 {
+  border-top: 60em solid rgba(115, 73, 182, 0.219);
+  border-right: 19em solid transparent;
+  max-width: 20%;
+  left: -1.9em;
+}
+.buttonsme {
+  position: relative;
+  left: 20px;
+  padding: 10px;
+}
+.farbe3 {
+  color: rgb(91, 21, 204);
+}
+.farbe1 {
+  font-size: 2vw;
+  font-weight: 800;
+  color: aliceblue;
+  text-shadow: 2px 2px rgba(59, 59, 59, 0.37);
+}
+.farbe2 {
+  padding: 20px;
+  padding-top: 10px;
+  color: aliceblue;
+}
