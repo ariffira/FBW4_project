@@ -410,6 +410,7 @@ img {
   bottom: -50px;
 }
 #testimonial .carousel-indicators li {
+  size: 50px; 
   border-radius: 0;
   border: none;
   background-color: #ffffff;
@@ -594,6 +595,7 @@ img {
   margin: 0;
   padding: 0;
   color: #ffffff;
+  text-shadow:1px 1px #333;
 }
 #feedback .address h2 {
   font-size: 25px;
@@ -619,14 +621,14 @@ img {
 }
 #feedback .address .social-icon li a {
   display: inline-block;
-  color: #ffffff;
+  color: #65cd00;
   margin: 0px 5px;
 }
 #feedback .address .social-icon li a i {
   font-size: 18px;
   width: 48px;
   height: 48px;
-  border: 1px solid #ffffff;
+  border: 1px solid #65cd00;
   text-align: center;
   line-height: 48px;
   vertical-align: middle;

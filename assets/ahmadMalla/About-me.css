@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background: url("img.img/20140223_155528.jpg");
+  background-color: #cccccc;
+  height: 957px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar  */
+.topnav {
+  overflow: hidden;
+  background-color: #bfefe9;
+  width: 150px;
+
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #515d32;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #91ba96;
+  color: #7b0032;
+}
+#text{
+  margin-top: 90px;
+  margin-left: 300px;
+  color: #bfc7a2;
+  text-shadow: 2px 2px #515839;
+  
+}
+#h1{
+  margin-left: 100px;
+}
+#h2{
+  margin-left: 125px;
+}
+#h3{
+  margin-left: 150px;
+}
+#h4{
+  margin-left: 167px;
+}

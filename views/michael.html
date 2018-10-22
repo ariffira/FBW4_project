@@ -8,9 +8,13 @@
     <!-- Bootstrap Css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+        <title>Michael</title>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+                <script type="text/javascript" src="js/functions.js"></script>
+                <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+                
     <!--My custom css-->
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="../assets/css/michael.css">
+    <link rel="stylesheet" href="../assets/michael/css/michael.css">
 </head>
 
 <body>
@@ -18,152 +22,27 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-
-<!-- Navigation -->
-                <nav class="navbar navbar-expand-md navbar-light bg-faded fixed-top sticky-top">
-                    <a class="navbar-brand" href="index.html"><img src="img/thisness_logo_black.svg" width="125" height="" alt="Thisness logo"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarToggler">
-                        <ul class="navbar-nav ml-auto mt-2 mt-md-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="work/index.html">Work</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about/index.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="process/index.html">Process</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="services/index.html">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact/index.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-
-                <div>
-                    <img src="img/hero.png" class="img-fluid" alt="a vintage photograph of Phoenix in the 1960s, taken at the intersection of Grand Ave., 19th Ave., and McDowell Rd., with a non-original Thisness billboard in the distance">
-                    <div class="text-center" style="padding:3rem 1.5rem">
-                        <h1>Let's build a <span style="color:#dd2163">blah-busting</span> brand.</h1>
-                        <p class="lead">Your organization deserves more than just a hastily made logo from some digital sweatshop. Thisness will work with your organization to find and identify its reason for being. A properly crafted identity will help your brand stand out in the marketplace, delight customers, and catalyze employees.</p>
-                    </div>
+                <div id="home">
+                    my name is michal grajoszek. <br> i am a programer, studying at DCI  <a href="#contact" class="scroll">contact</a> me if you<br>like. cheers.
                 </div>
-
-                <hr>
-
-                <div style="padding:3rem 0">
-                    <h2 class="text-center" style="padding-bottom:1.5rem">Thisness is a little spesh...</h2>
-
-                    <div>
-                        <div class="row">
-                            <div class="col-md-4 col-lg-6 feature">
-                                <h3>Millennial-driven</h3>
-                                <p>We may be the worst generation ever, but we're taking over the world. Receive insights on this rising cohort that you can't get from skimming the latest think piece. If your organization is led by or caters to millennials, you've come to the right place.</p>
-                            </div>
-                            <div class="col-md-8 col-lg-6 feature">
-                                <img class="img-fluid" src="img/feature_millennial.png" alt="Internet search history for a non-millennial trying to figure out millennials"/>
-                            </div>
-                        </div>
-
-                        <p class="text-center" style="padding:1.5rem 0">_ _ _</p>
-
-                        <div class="row">
-                            <div class="col-md-4 push-md-8 col-lg-6 order-md-2 feature">
-                                <h3>Low overhead, high expectations</h3>
-                                <p>When you work with Thisness, you're not paying for project managers, fancy office space, interns from Phi Kappa Whatever, or the obligatory office dog. You're simply getting the best information-synthesis and idea-generation skills around.</p>
-                            </div>
-                            <div class="col-md-8 pull-md-4 col-lg-6 order-md-1 feature">
-                                <img class="img-fluid" src="img/feature_overhead.png" alt="employee directory section of a website for a bloated agency"/>
-                            </div>
-                        </div>
-
-                        <p class="text-center" style="padding:1.5rem 0">_ _ _</p>
-
-                        <div class="row">
-                            <div class="col-md-4 col-lg-6 feature">
-                                <h3>Full attention, not full service</h3>
-                                <p>Rather than juggling a plethora of marketing services and dozens of clients, I will focus exclusively on developing your brand identity. At the end of the process, you'll get a playbook that will serve as a galvanizing force for your organization.</p>
-                            </div>
-                            <div class="col-md-8 col-lg-6 feature">
-                                <img class="img-fluid" src="img/feature_attention.png" alt="text conversation between a client and an overworked agency employee"/>
-                            </div>
-                        </div>
-                    </div>
+                
+                <div id="contact">
+                    <h1>
+                        you can contact me<br> via <a href="mailto:niczyji@gmail.com">mail</a> or <a href="https://www.linkedin.com/in/mi-gra-99ab919a/" target="_blank">linkedin</a> or <a href="https://www.xing.com/profile/Michal_Grajoszek" target="_blank">xing</a>.
+                    </h1>
+                    <!--img src="images/tim_brack.jpg"-->
                 </div>
+                
+                <script src="js/jquery.fittext.js"></script>
+                <script type="text/javascript">
+                    $("#home").fitText(0.765, { minFontSize: '140px', maxFontSize: '350px' });
+                    $(".work h1").fitText(0.62, { minFontSize: '30px', maxFontSize: '500px' });
+                    $(".work h2").fitText(0.45 , { minFontSize: '30px', maxFontSize: '500px' });
+                    $("#contact h1").fitText(0.80, { minFontSize: '140px', maxFontSize: '350px' });
+                    $("#fittext3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
+                </script>
 
-                <hr>
-
-                <div style="padding:3rem 0">
-                    <h2 class="text-center" style="padding-bottom:1.5rem">Learn more</h2>
-
-                    <div class="row learn_more">
-                        <div class="col-md-3 col-6 learn_more-item">
-                            <a href="work/index.html" class="learn_more-link">
-                                <img src="img/thumbnail_work.png" class="img-fluid" alt="Work thumbnail"><span class="learn_more-text">Work</span>
-                            </a>
-                        </div>
-
-                        <div class="col-md-3 col-6 learn_more-item">
-                            <a href="about/index.html" class="learn_more-link">
-                                <img src="img/thumbnail_about.png" class="img-fluid" alt="About thumbnail"><span class="learn_more-text">About</span>
-                            </a>
-                        </div>
-
-                        <div class="col-md-3 col-6 learn_more-item">
-                            <a href="process/index.html" class="learn_more-link">
-                                <img src="img/thumbnail_process.png" class="img-fluid" alt="Process thumbnail"><span class="learn_more-text">Process</span>
-                            </a>
-                        </div>
-
-                        <div class="col-md-3 col-6 learn_more-item">
-                            <a href="services/index.html" class="learn_more-link">
-                                <img src="img/thumbnail_services.png" class="img-fluid" alt="Services thumbnail"><span class="learn_more-text">Services</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="row justify-content-center" style="padding-top:3rem">
-                        <a class="btn btn-lg btn-thisness_large" href="contact/index.html">Contact</a>
-                    </div>
-                </div>
-
-<!-- Footer -->
-                <footer>
-                    <div class="container" style="padding:3rem 0">
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <div style="margin-bottom:.5rem">
-                                    <a href="https://twitter.com/thisnessPHX"><img src="img/twitter.svg" width="" height="30" alt="Twitter glyph" style="padding-right:5px"></a>
-                                    <a href="https://www.linkedin.com/company/thisnessPHX"><img src="img/linkedin.svg"  width="" height="30" alt="LinkedIn glyph"></a>
-                                </div>
-
-                                <p itemscope itemtype="http://schema.org/ContactPoint" style="margin-bottom:.5rem"><a href="mailto:jacob@thisness.com"><span itemprop="email">jacob@thisness.com</span></a>&nbsp; &#8226; &nbsp;<a href="tel:1-480-678-4499"><span itemprop="telephone">(480) 678-4499</span></a></p>
-
-                                <form action="//thisness.us16.list-manage.com/subscribe/post?u=9680f4d6b10a9fc6684fadd58&amp;id=3f368ca64f" method="post" name="mc-embedded-subscribe-form" class="form-inline justify-content-center" target="_blank" style="margin-bottom:.5rem">
-                                    <label class="sr-only" for="inlineFormInput">Email address</label>
-                                    <input type="email" name="EMAIL" class="form-control" id="inlineFormInput" placeholder="Email address" required style="width:250px; height:40px">
-                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9680f4d6b10a9fc6684fadd58_3f368ca64f" tabindex="-1" value=""></div>
-                                    <input type="submit" value="Subscribe" name="subscribe" class="btn btn-thisness" style="margin-left:.25rem">
-                                </form>
-
-                                <p>_ _ _</p>
-
-                                <p style="margin-top:-.25rem; margin-bottom:0"><a href="privacy/index.html">Privacy policy</a> &#124; <a href="terms/index.html">Terms of service</a></p>
-                                <p style="margin-bottom:0">&copy; 2018 Mika, LLC</p>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-
-            </div><!-- end col -->
-        </div><!-- end row -->
-    </div> <!-- end container -->
+                
 
 <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -171,5 +50,4 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 </body>
-
 </html>
