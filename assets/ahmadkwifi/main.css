@@ -24,7 +24,11 @@ body {
   transform: rotate(360deg);
 }
 .textWebBody {
+<<<<<<< HEAD
   /* background-color: rgba(236, 232, 232, 0.11); */
+=======
+  background-color: rgba(236, 232, 232, 0.11);
+>>>>>>> e0b62b71158ed72e4c85227b8a89ff00bc9956cd
   color: #fafafa;
   font-size: 2.5vw;
 }
@@ -266,6 +270,7 @@ body {
 .Yellow {
   background-color: #eede0073 !important;
 }
+<<<<<<< HEAD
 
 #glasslogoID {
   -webkit-animation: mymove 5s infinite;
@@ -290,5 +295,26 @@ body {
   }
   100% {
     transform: rotateY(-90deg);
+=======
+.card-body a img {
+  transition: 0.5s;
+  animation: backgan 20s infinite;
+}
+@keyframes backgan {
+  0% {
+    transform: rotateY(180deg);
+  }
+  25% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(-180deg);
+  }
+  75% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+>>>>>>> e0b62b71158ed72e4c85227b8a89ff00bc9956cd
   }
 }
