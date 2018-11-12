@@ -1,0 +1,788 @@
+.homepage {
+    background-image: url("image/rsz_zoya_in_desert.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+    background-position: 50%;
+}
+
+.contact {
+    background-image: url("image/rsz_zoya_in_desert.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+    background-position: 50%;
+}
+
+.aboutme {
+    margin: 0;
+    background-image: url("image/rsz_image222.jpg");
+    background-size: auto 100%;
+
+    /* background-position: center; */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+
+
+}
+
+.navbar {
+    background: rgba(136, 105, 94, 0.514);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px;
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.hero-text {
+    margin-top: 163px;
+    margin-left: 268px;
+    margin-bottom: 300px;
+
+    /* text-align: center; */
+    /*  position: fixed; */
+
+    /*   left: 70%;
+    transform: translate(-50%, -50%); */
+    color: rgb(51, 45, 26);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: initial;
+}
+
+form {
+    background: #adaa7d5d;
+    padding: 50px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(187, 186, 177);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgb(74, 106, 192);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #38d3df;
+}
+
+.container {
+    border-radius: 5px;
+
+    /*background-color: #f2f2f2;*/
+    padding: 20px;
+}
+
+.aboutme1 {
+    text-align-last: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.aboutme2 {
+    box-sizing: border-box !important;
+    background-color: #c4909059;
+}
+
+@media (max-width: 500px) {
+    .aboutme2 {
+        width: 40% !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .aboutme2 {
+        width: 90% !important;
+        height: 80% !important;
+    }
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+p {
+    margin: 0 !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    background-color: rgba(221, 221, 221, 0.253);
+}
+
+body {
+    background: #E9E5E2;
+    margin: 2%;
+}
+
+#SkillBox {
+    font-size: 20px;
+    text-decoration-color: white;
+    font-family: 'Indie Flower', cursive;
+    width: 95%;
+    height: auto;
+    margin: 60px auto;
+    padding: 10px;
+    border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+.SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, 0.3);
+    margin: 20px auto;
+}
+
+#Skill-HTML {
+    width: 100%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: #ea8564;
+}
+
+@keyframes Animate-HTML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes Animate-HTML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@-moz-keyframes Animate-HTML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@-o-keyframes Animate-HTML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+#Skill-CSS {
+    animation: Animate-CSS 5s;
+    -webkit-animation: Animate-CSS 5s;
+    -moz-animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+
+@keyframes Animate-CSS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+
+@-webkit-keyframes Animate-CSS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+
+@-moz-keyframes Animate-CSS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+
+@-o-keyframes Animate-CSS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+
+#Skill-jQuery {
+    animation: Animate-jQuery 5s;
+    -webkit-animation: Animate-jQuery 5s;
+    -moz-animation: Animate-jQuery 5s;
+    -o-animation: Animate-jQuery 5s;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    background-color: #99856d;
+}
+
+@keyframes Animate-jQuery {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+
+@-webkit-keyframes Animate-jQuery {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+
+@-moz-keyframes Animate-jQuery {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+
+@-o-keyframes Animate-jQuery {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+
+#Skill-JS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 65%;
+    height: 50px;
+    position: absolute;
+    background-color: #c44e45;
+}
+
+@keyframes Animate-JS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 65%;
+    }
+}
+
+@-webkit-keyframes Animate-JS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 65%;
+    }
+}
+
+@-moz-keyframes Animate-JS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 65%;
+    }
+}
+
+@-o-keyframes Animate-JS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 65%;
+    }
+}
+
+#Skill-XML {
+    animation: Animate-XML 4s;
+    -webkit-animation: Animate-XML 4s;
+    -moz-animation: Animate-XML 4s;
+    -o-animation: Animate-XML 4s;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    background-color: #5aa669;
+}
+
+@keyframes Animate-XML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+
+@-webkit-keyframes Animate-XML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+
+@-moz-keyframes Animate-XML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+
+@-o-keyframes Animate-XML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+
+#Skill-C {
+    animation: Animate-C 4s;
+    -webkit-animation: Animate-C 4s;
+    -moz-animation: Animate-C 4s;
+    -o-animation: Animate-C 4s;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    background-color: #970cc1;
+}
+
+@keyframes Animate-C {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 30%;
+    }
+}
+
+@-webkit-keyframes Animate-C {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 30%;
+    }
+}
+
+@-moz-keyframes Animate-C {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 30%;
+    }
+}
+
+@-o-keyframes Animate-C {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 30%;
+    }
+}
+
+#Skill-JAVA {
+    animation: Animate-JAVA 4s;
+    -webkit-animation: Animate-JAVA 4s;
+    -moz-animation: Animate-JAVA 4s;
+    -o-animation: Animate-JAVA 4s;
+    width: 25%;
+    height: 50px;
+    position: absolute;
+    background-color: #8e930c;
+}
+
+@keyframes Animate-JAVA {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 25%;
+    }
+}
+
+@-webkit-keyframes Animate-JAVA {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 25%;
+    }
+}
+
+@-moz-keyframes Animate-JAVA {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 25%;
+    }
+}
+
+@-o-keyframes Animate-JAVA {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 25%;
+    }
+}
+
+#Skill-PHP {
+    animation: Animate-PHP 4s;
+    -webkit-animation: Animate-PHP 4s;
+    -moz-animation: Animate-PHP 4s;
+    -o-animation: Animate-PHP 4s;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    background-color: #5A69A6;
+}
+
+@keyframes Animate-PHP {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+@-webkit-keyframes Animate-PHP {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+@-moz-keyframes Animate-PHP {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+@-o-keyframes Animate-PHP {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+#Skill-SQL {
+    animation: Animate-SQL 4s;
+    -webkit-animation: Animate-SQL 4s;
+    -moz-animation: Animate-SQL 4s;
+    -o-animation: Animate-SQL 4s;
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #23b1db;
+}
+
+@keyframes Animate-SQL {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+@-webkit-keyframes Animate-SQL {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+@-moz-keyframes Animate-SQL {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+@-o-keyframes Animate-SQL {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+#Skill-VBNET {
+    animation: Animate-VBNET 4s;
+    -webkit-animation: Animate-VBNET 4s;
+    -moz-animation: Animate-VBNET 4s;
+    -o-animation: Animate-VBNET 4s;
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    background-color: #f8a51e;
+}
+
+@keyframes Animate-VBNET {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 35%;
+    }
+}
+
+@-webkit-keyframes Animate-VBNET {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 35%;
+    }
+}
+
+@-moz-keyframes Animate-VBNET {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 35%;
+    }
+}
+
+@-o-keyframes Animate-VBNET {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 35%;
+    }
+}
+
+.Skill-Area {
+    z-index: 1;
+    float: left;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+
+.footer {
+    position: absolute;
+
+    /* right: 0;
+    left: 0;
+    bottom: 0; */
+
+    width: 100%;
+    height: 10%;
+    background-color: rgba(230, 157, 98, 0.349);
+    color: black;
+    text-align: center;
+}

@@ -1,118 +1,495 @@
-#header {
-  height: 500px;
-  position: relative;
-  top: 0em;
-  background-image: url(../mansour/img/colour-gradient-nature-outdoors-minimal-5k-oy.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: black;
-}
-#about{
-  
-  top: 0em;
-  background-image: url(../mansour/img/coloureverse.jpg);
- 
-   
-  
-}
-#about img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin: 20px;
-  border: 2px solid rgba(220, 234, 240, 0.836);
-}
-  .heading p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.7em;
+  body{
+  font-family: 'Raleway', sans-serif !important;
+  }
+  .navbar{
+  border-bottom: 3px solid #04C2C9;
+  }
+  .nav-item{
+  font-size: 13pt;
+  }
+  .heading {
+    width: 100wh;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+  }
+  @-moz-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 18pt;
   }
   .heading h1 {
     color: black;
-    font-family: "Pacifico", cursive;
+    font-family: 'Raleway', sans-serif;
     font-size: 3.5em;
     font-weight: 300;
   }
-  .heading h2 {
-    font-size: 4em;
-    color: #fff;
-    font-weight: 300;
-    font-family: "Quicksand", sans-serif;
-    letter-spacing: -5px;
-    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.15);
+  .hightlight{
+    font-weight: bold;
   }
-  .welcome p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.2em;
-    color: black;
+  .button {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    padding: 12px 20px 12px 20px;   
+    font-size: 13pt;
+    cursor: pointer;
   }
-  #about p{
-    font-family: "Open Sans", sans-serif;
-    font-size: 1em;
+ .button:hover{
+  background: rgb(255, 201, 0);
+  color: black;
+  border: 2px solid rgb(255, 201, 0);
+  transition:.4s;
+  } 
+/*--------------------------------------------------------------------*/
+  #abilities{
+  padding: 100px 0 130px 0;
   }
-  #about h2{
-    font-family: "Quicksand", sans-serif;
-
+  #abilities h1{
+  font-size: 30pt;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  left:-850px;
   }
-  
-  #skills h1{
-    font-family: "Quicksand", sans-serif;
+  .header-bar {
+  margin: 25px 0 75px 0;
+  width: 70px;
+  height: 4px;
+  background: #444649;
+  margin: 0 auto;
+  position: relative;
+  left:-800px;
+}
+ .mdi{
+  font-size: 80px;
+  color: white;
+}
+.container{
+  padding: 0 !important;
+  height: auto;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.box{
+  width: 20%;
+  height: auto;
+  margin:20px;
+  box-sizing: border-box;
+  position: relative;
+ display: none;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h3{
+  font-family: 'Raleway' !important;
+  font-size: 15pt 
+  !important;
+  font-weight: bold !important;
+}
+.text{
+  font-family: 'Raleway';
+text-align: center;
+margin: 0px;
+font-size:12pt !important;
+margin: 3px !important;
+}
+@media (max-width: 1000px) { 
+  .box{
+    width: 40%;
   }
-  
-  
-  
-  .skillbar {
-    position:relative;
-    display:block;
-    margin-bottom:15px;
-    width:100%;
-    background:#eee;
-    height:35px;
-    border-radius:3px;
-    
-    
+ } 
+ @media (max-width: 500px) { 
+  .box{
+    width: 100%;
+    margin: 10px;
   }
-  
-  .skillbar-title {
-    position:absolute;
-    top:0;
-    left:0;
-  width:110px;
-    font-weight:bold;
-    font-size:13px;
-    color:#ffffff;
-    background:#6adcfa;
-   
-    border-top-left-radius:3px;
-    border-bottom-left-radius:3px;
+ }
+ #about{
+  height: auto;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-flow: wrap;
+ }
+ .box1{
+  width: 45%;
+  height: auto;
+  margin:5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 18pt;
+ }
+ .info{
+  position: relative;
+  left: -1500px;
+ }
+ #cv{
+   cursor: pointer;
+   font-weight: 900;
+ }
+ .skills{
+ display: none;
+ }
+ @media (max-width: 1000px) { 
+  .info{
+    width: 40%;
   }
-  
-  .skillbar-title span {
-    display:block;
-    background:rgba(0, 0, 0, 0.1);
-    padding:0 20px;
-    height:35px;
-    line-height:35px;
-   
-    border-top-left-radius:3px;
-    border-bottom-left-radius:3px;
+  .skills{
+    width:40%;
   }
-  
-  .skillbar-bar {
-    height:35px;
-    width:0px;
-    background:#6adcfa;
-    border-radius:3px;
-  
   }
-  
-  .skill-bar-percent {
-    position:absolute;
-    right:10px;
-    top:0;
-    font-size:11px;
-    height:35px;
-    line-height:35px;
-    color:#ffffff;
-    color:rgba(0, 0, 0, 0.4);
+  @media (max-width: 700px) { 
+    .info{
+      width: 90%;
+    }
+    .skills{
+      margin-top:20px;
+      width:90%;
+    }
+    }
+    p{
+      color:#525252;
+      font-size:12px;
+    }
+    .skillbar {
+      position:relative;
+      display:block;
+      margin-bottom:15px;
+      width:100%;
+      background:#eee;
+      height:35px;
+      -moz-transition:0.4s linear;
+      -ms-transition:0.4s linear;
+      -o-transition:0.4s linear;
+      transition:0.4s linear;
+      -moz-transition-property:width, background-color;
+      -ms-transition-property:width, background-color;
+      -o-transition-property:width, background-color;
+      transition-property:width, background-color;
+    }
+    .skillbar-title {
+      position:absolute;
+      top:0;
+      left:0;
+      width:110px;
+      font-weight:bold;
+      font-size:13px;
+      color:#ffffff;
+      background:#6adcfa;
+      font-family: 'Raleway', sans-serif;
+    }
+    .skillbar-title span {
+      display:block;
+      background:rgba(0, 0, 0, 0.1);
+      padding:0 20px;
+      height:35px;
+      line-height:35px;
+    }
+    .skillbar-bar {
+      height:35px;
+      width:0px;
+      background:#6adcfa;
+    }
+    .skill-bar-percent {
+      position:absolute;
+      right:10px;
+      top:0;
+      font-size:13px;
+      height:35px;
+      line-height:35px;
+      color:#ffffff;
+      color:rgba(0, 0, 0, 1);
+    }
+    img{
+      width: 200px;height: 
+      200px;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    /*------------------------------------------------*/
+    #myWorks{
+      padding: 100px 0 130px 0;
+      background: rgb(245, 245, 245);
+    }
+  .head-projects{
+  font-size: 30pt;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  left:-850px;
+    }
+    .header-bar2 {
+      margin: 25px 0 75px 0;
+      width: 70px;
+      height: 4px;
+      background: #444649;
+      margin: 0 auto;
+      position: relative;
+      left:-800px;
+    }
+    .container2{
+      padding: 0 !important;
+      height: auto;
+      display:flex;
+      flex-direction:row;
+    justify-content: center;
+      flex-wrap: wrap;
+    }
+    .workbox1{
+  width: 30%;
+  height:300px;
+  margin:2px;
+  box-sizing: border-box;
+  background: #EE7752 ;
+  background-image: url(../../css/mansour/img/myFirstCalculator.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+ cursor: pointer;
+}
+.workbox2{
+  width: 30%;
+  height:300px;
+  margin:2px;
+  box-sizing: border-box;
+  background: #EE7752 ;
+  background-image: url(../../css/mansour/img/myFirstPortfolio.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  cursor: pointer;
+}
+.workbox3{
+  width: 30%;
+  height:300px;
+  margin:2px;
+  box-sizing: border-box;
+  background: #EE7752 ;
+  background-image: url(../../css/mansour/img/todolist.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  cursor: pointer;
+}
+@media (max-width: 900px) { 
+  .workbox1{
+    width: 45%; 
   }
+  .workbox2{
+    width: 45%; 
+  }
+  .workbox3{
+    width: 45%; 
+  }
+ } 
+ @media (max-width: 600px) { 
+  .workbox1{
+    width: 100%;
+    margin: 10px;
+  }
+  .workbox2{
+    width: 100%;
+    margin: 10px; 
+  }
+  .workbox3{
+    width: 100%;
+    margin: 10px;
+  }
+ }
+.text-workbox1{
+  font-size: 16pt;
+  font-weight: bolder;
+  color:black;
+  font-family: 'Raleway';
+  position: relative;
+  visibility: hidden; 
+}
+.text-workbox2{
+  font-size: 16pt;
+  font-weight: bolder;
+  color:black;
+  font-family: 'Raleway';
+  position: relative;
+  visibility: hidden;
+}
+.text-workbox3{
+  font-size: 16pt;
+  font-weight: bolder;
+  color:black;
+  font-family: 'Raleway';
+  position: relative;
+  visibility: hidden; 
+}
+.highlight{
+  color: #E31B6D ;
+  font-size: 12pt;
+}
+.learnbtn1{
+  right: 0;
+  bottom:0;
+  left: 0;
+  position: absolute;
+  border: 2px solid #E31B6D;
+  width: 170px;
+  margin: 0 auto;
+  font-size: 13pt;
+  padding: 7px 0;
+  visibility: hidden;
+  color:black;
+ text-decoration: none !important;
+}
+.btnHover:hover{
+background: #E31B6D;
+color:white;
+}
+.learnbtn2{
+  right: 0;
+  bottom:0;
+  left: 0;
+  position: absolute;
+  border: 2px solid #E31B6D;
+  width: 170px;
+  margin: 0 auto;
+  font-size: 13pt;
+  padding: 7px 0;
+  visibility: hidden;
+  color:black;
+  text-decoration: none !important;
+}
+.learnbtn3{
+  right: 0;
+  bottom:0;
+  left: 0;
+  position: absolute;
+  border: 2px solid #E31B6D;
+  width: 170px;
+  margin: 0 auto;
+  font-size: 13pt;
+  padding: 7px 0;
+  visibility: hidden;  
+  color:black;
+  text-decoration: none !important;
+}
+#contact{
+  padding: 100px 0 130px 0;
+  background: rgb(42, 43, 55);
+}
+.contactForm {
+  width: 50%;
+  margin: 0 auto;
+} 
+@media (max-width: 600px){
+  .contactForm{
+    width: 90%;
+  }
+}
+#sendBtn{
+  padding: 10px;
+  background: none;
+  cursor: pointer;
+  color: white;
+  border: 2px solid #04C2C9;
+  width: 170px;
+  text-align: center;
+} 
+#sendBtn:hover{
+  background: #04C2C9;
+  color: black;
+  font-weight: 400;
+  transition:.4s;
+}
+.head-contact{
+  font-size: 30pt;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  color: white;
+  left:-850px;
+}
+.header-whiteBar{
+  margin: 25px 0 75px 0;
+  width: 70px;
+  height: 4px;
+  background: white;
+  margin: 0 auto;
+  position: relative;
+   left:-800px; 
+}
+#contact h3{
+  color:#04C2C9;
+  font-weight: 600;
+}
+footer{
+  background: rgb(33, 39, 51);
+}
+.social .fab{
+  width: 60px;
+  height: 60px;
+  margin:10px;
+  background: rgba(61, 74, 100, 0.336);
+  text-align: center;  
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color:white;
+  cursor: pointer;
+ font-size: 20px;
+}
+.fab:hover{
+  background: #04C2C9;
+  transform: scale(0.9);
+  transition-duration:0.2s;
+}
+.copyright{
+  font-size: 10pt;
+  font-weight: bold;
+  color: #8F9AA7;
+  margin-top: 35px;
+  opacity: 0.6;
+}
+#scrollTop{
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: rgb(255, 201, 0);
+  cursor:pointer;
+}
+#scrollTop:hover{
+  transform: scale(1.1);
+}
